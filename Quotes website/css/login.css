@@ -1,0 +1,84 @@
+* {
+    background-color: white;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+}
+
+.main-container {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.4rem;
+    box-shadow: 0px 11px 10px 2px rgba(0, 0, 0, 0.14);
+}
+
+.log-in-text {
+    text-align: center;
+    padding-top: 40px;
+    color: #1482e9;
+    font-size: 50px;
+}
+
+.input-box {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+form.form-box {
+    padding-top: 40px;
+}
+
+.user-name:focus,
+.pass-word:focus {
+    border: 2px solid #0779e4 !important;
+}
+
+.btn {
+    margin-left: 40%;
+}
+
+.forgot-text {
+    text-shadow: 0px 0px 3px 0px rgb(90, 45, 45);
+    text-align: center;
+    color: rgb(142, 116, 146);
+}
+
+.forgot-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.forgot-text a:hover {
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        border-radius: 0px;
+    }
+}

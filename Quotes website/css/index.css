@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Default styling for html5 elements */
+
+h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+}
+
+
+/* #Navbar */
+
+.navbar-edit {
+    padding: 3% 3%;
+}
+
+
+/* header */
+
+#header {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.text {
+    font-family: cursive;
+    padding: 2px;
+}
+
+.q-link {
+    color: white;
+}
+
+.q-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.w-screen0 {
+    display: inline;
+}
+
+.w-screen1 {
+    display: inline;
+}
+
+.w-screen2 {
+    display: inline;
+}
+
+.text-Anim {
+    display: inline;
+}
+
+
+/* QUotes Section */
+
+#Quotes-section {
+    background-color: #ececec;
+    padding: 2% 5%;
+}
+
+.Q1 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.xtra {
+    padding-top: 2%;
+    text-align: right;
+    position: relative;
+    padding-right: 5%;
+}
+
+
+/* footer section */
+
+#footer {
+    padding: 1% 1%;
+}
+
+.btn-group {
+    padding-bottom: 15px;
+}
+
+.svg-icons {
+    padding: 3%;
+    font-size: 50px;
+}
+
+.fa-facebook-f {
+    border-radius: 100%;
+    color: #3b5999;
+}
+
+.fa-youtube {
+    border-radius: 100%;
+    color: #cd201f;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-twitter {
+    border-radius: 100%;
+    color: #55acee;
+}
+
+.fa-telegram {
+    border-radius: 100%;
+    color: #0088cc;
+}
+
+.box {
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    padding: 3% 11%;
+}
+
+@media (max-width: 497px) {
+    .svg-icons {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 334px) {
+    .svg-icons {
+        font-size: 20px;
+    }
+}
